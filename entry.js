@@ -3,6 +3,6 @@ import ReactDOM from 'react-dom';
 import Greeter from "./greeter";
 
 ReactDOM.render(
-    <Greeter />,
+    <Greeter name="Marco"/>,
     document.getElementById("testItem")
 );

@@ -1,4 +1,5 @@
 module.exports = {
+    devtool: 'eval-source-map',
     entry: __dirname + "/entry.js",
     output: {
         path: __dirname,
@@ -8,7 +9,8 @@ module.exports = {
         contentBase:__dirname,
         historyApiFallback:true,
         inline:true,
-        port:8765
+        port:8765,
+        openPage: ''
     },
     module: {
         rules: [
